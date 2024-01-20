@@ -1,0 +1,24 @@
+/**
+ * @license
+ *
+ * Font Family: Bespoke Stencil
+ * Designed by: Jérémie Hornus, Théo Guillard, Morgane Pambrun, Alisa Nowak, Joachim Vu
+ * URL: https://www.fontshare.com/fonts/bespoke-stencil
+ * © 2024 Indian Type Foundry
+ *
+ * Font Style:
+ * Bespoke Stencil Bold
+ *
+*/
+
+
+@font-face {
+  font-family: 'BespokeStencil-Bold';
+  src: url('../fonts/BespokeStencil-Bold.woff2') format('woff2'),
+       url('../fonts/BespokeStencil-Bold.woff') format('woff'),
+       url('../fonts/BespokeStencil-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+

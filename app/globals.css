@@ -62,6 +62,18 @@
     font-weight: 900;
     src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-Black.otf') format("otf");
   }
+
+  @font-face {
+    font-family: 'Supreme', sans-serif;
+    font-weight: 400;
+    src: url('../assets/fonts/Supreme/Fonts/OTF/Supreme-Regular.otf') format("otf");
+  }
+
+  @font-face {
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-weight: 700;
+    src: url('../assets/fonts/Bespoke_Stencil/Fonts/OTF/BespokeStencil-Bold.otf') format("otf");
+  }
 }
 
 @layer components {
