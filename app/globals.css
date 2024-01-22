@@ -2,80 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 200;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-ExtraLight.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-Light.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 400;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-Regular.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 500;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-Medium.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 501;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-MediumItalic.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-SemiBold.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 601;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-SemiBoldItalic.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 701;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-BoldItalic.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 800;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-ExtraBold.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 900;
-    src: url('../assets/fonts/Fira_Sans/Fonts/OTF/FiraSans-Black.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Supreme', sans-serif;
-    font-weight: 400;
-    src: url('../assets/fonts/Supreme/Fonts/OTF/Supreme-Regular.otf') format("otf");
-  }
-
-  @font-face {
-    font-family: 'Bespoke Stencil', sans-serif;
-    font-weight: 700;
-    src: url('../assets/fonts/Bespoke_Stencil/Fonts/OTF/BespokeStencil-Bold.otf') format("otf");
-  }
-}
-
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -93,6 +19,7 @@
 body {
   color: var(--foreground-rgb);
   background: var(--background-start-rgb);
+
 }
 
 /*==== HEADER STYLES  ====*/

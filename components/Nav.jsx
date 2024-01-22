@@ -23,7 +23,7 @@ const Nav = () => {
                     />
                 </div>
                 <ul className='flex items-center header_ul justify-center gap-16 max-lg:hidden'>
-                    <li className='active'>Marketplace</li>
+                    <li className='active font-bespoke'>Marketplace</li>
                     <li>Artists</li>
                     <li>Community</li>
                     <li>Collections</li>
