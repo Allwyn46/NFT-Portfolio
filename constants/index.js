@@ -12,7 +12,7 @@
 // } from "../assets/images";
 
 export const navLinks = [
-  { href: "#home", label: "Marketplace" },
+  { href: "#hero", label: "Marketplace" },
   { href: "#about-us", label: "Artists" },
   { href: "#products", label: "Community" },
   { href: "#contact-us", label: "Collections" },

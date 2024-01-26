@@ -4,21 +4,32 @@
 
 @layer components {
   .max-container {
-    max-width: 1440px;
+    max-width: 1330px;
     margin: 0 auto;
   }
 }
 
 :root {
   --foreground-rgb: #fff;
+  --foreground-dark: #000;
   --background-start-rgb: #252525;
   --background-end-rgb: 255, 255, 255;
   --color-primary: #D6EF0E;
 }
 
+h1 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 14px;
+}
+
 body {
   color: var(--foreground-rgb);
-  background: linear-gradient(232deg, rgba(2, 0, 36, 1) 27%, rgba(69, 199, 225, 1) 54%, rgba(2, 2, 48, 1) 82%);
+  /* background: linear-gradient(232deg, rgba(2, 0, 36, 1) 27%, rgba(69, 199, 225, 1) 54%, rgba(2, 2, 48, 1) 82%); */
+  /* background: #1E1E1E; */
+  background-image: linear-gradient(to left bottom, #051937, #061830, #081629, #0a1422, #0b121b, #0b131e, #0a1320, #0a1423, #061830, #011b3e, #001d4b, #001f58);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -42,4 +53,40 @@ body {
 
 .hero_sec {
   height: 100vh;
+}
+
+.hero_sec_h1 {
+  font-size: 58px;
+  line-height: 75px;
+  font-family: var(--font-bespoke);
+}
+
+.hero_sec_h1 span {
+  color: var(--color-primary);
+}
+
+/* .hero_sec_lef {
+  width: 40%;
+} */
+
+/*==== BUTTON COMPONENT STYLES  ====*/
+.button_com {
+  padding: 12px 25px;
+  background-color: var(--color-primary);
+  color: var(--foreground-dark);
+  border-radius: 8px;
+  border: none;
+  width: 35%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.button_com_sec {
+  padding: 12px 25px;
+  background-color: var(--foreground-dark);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: none;
+  width: 35%;
+  margin-top: 20px;
 }

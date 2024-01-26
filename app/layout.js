@@ -2,8 +2,10 @@ import { Inter, Montserrat, Josefin_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const jose = Josefin_Sans({ subsets: ["latin"] });
+const jose = Josefin_Sans({
+  subsets: ["latin"],
+  variable: "--font-jose",
+});
 const fira = localFont({
   src: [
     {
@@ -91,7 +93,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${fira.variable} ${bespoke.variable} ${supreme.variable} ${jose .className}`}
+        className={`${fira.variable} ${bespoke.variable} ${supreme.variable} ${jose.className}`}
       >
         {children}
       </body>
