@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${fira.variable} ${bespoke.variable} ${supreme.variable} ${jose.className}`}
+        className={`${fira.variable} ${bespoke.variable} ${supreme.variable} ${jose .className}`}
       >
         {children}
       </body>

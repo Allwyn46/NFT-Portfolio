@@ -18,8 +18,10 @@
 
 body {
   color: var(--foreground-rgb);
-  background: var(--background-start-rgb);
-
+  background: linear-gradient(232deg, rgba(2, 0, 36, 1) 27%, rgba(69, 199, 225, 1) 54%, rgba(2, 2, 48, 1) 82%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 /*==== HEADER STYLES  ====*/
@@ -36,4 +38,8 @@ body {
   background-color: var(--color-primary);
   color: var(--foreground-rgb);
   border-radius: 8px;
+}
+
+.hero_sec {
+  height: 100vh;
 }
