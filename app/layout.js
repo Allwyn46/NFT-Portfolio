@@ -1,6 +1,7 @@
 import { Inter, Montserrat, Josefin_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import "./responsive.css";
 
 const jose = Josefin_Sans({
   subsets: ["latin"],

@@ -12,15 +12,16 @@ const Nav = () => {
     const [toggleMenu, seToggleMenu] = useState(false);
 
     return (
-        <header className='padding-x py-8 absolute z-10 w-full'>
-            <nav className='px-5 flex justify-between items-center max-container'>
+        <header className='padding-x absolute z-10 w-full'>
+            <nav className='px-5 py-2 flex justify-between items-center max-container'>
                 <div className='header_logo'>
                     <Image
-                        src={images.logo}
+                        src={images.nftlogo}
                         alt="Nft-logo"
                         style={{
-                            width: '50px',
-                            height: '50px',
+                            width: '80px',
+                            height: '80px',
+                            objectFit: 'contain'
                         }}
                     />
                 </div>

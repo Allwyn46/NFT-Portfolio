@@ -1,0 +1,31 @@
+@media screen and (max-width:2570px) {}
+
+@media screen and (max-width:1450px) {}
+
+@media screen and (max-width:1370px) {
+    .hero_sec_lef {
+        width: 40%;
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .hero_sec_lef {
+        width: 100%;
+    }
+
+    /* pt-28 */
+}
+
+@media screen and (max-width:450px) {
+    .hero_sec_lef {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    .hero_sec_lef {
+        margin-top: 150px;
+    }
+}
