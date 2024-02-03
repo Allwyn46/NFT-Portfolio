@@ -1,4 +1,4 @@
-import { Inter, Montserrat, Josefin_Sans } from "next/font/google";
+import { Inter, Montserrat, Josefin_Sans, Yeseva_One } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import "./responsive.css";
@@ -7,6 +7,13 @@ const jose = Josefin_Sans({
   subsets: ["latin"],
   variable: "--font-jose",
 });
+
+const yeseva = Yeseva_One({
+  subsets: ["latin"],
+  variable: "--font-yeseva",
+  weight: "400",
+});
+
 const fira = localFont({
   src: [
     {

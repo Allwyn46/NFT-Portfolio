@@ -6,6 +6,7 @@
     .hero_sec_lef {
         width: 40%;
         padding: 20px 30px;
+        padding-top: 7rem;
     }
 }
 
@@ -15,11 +16,39 @@
     }
 
     /* pt-28 */
+
+
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:770px) {
+    .hero_button_sec {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:490px) {
     .hero_sec_lef {
         width: 100%;
+    }
+
+    .hero_sec_h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .stat_h1 {
+        font-size: 1.5rem;
+    }
+
+    .button_com {
+        width: 174px;
+        font-size: 12px;
+    }
+
+    .button_com_sec {
+        width: 174px;
+        font-size: 12px;
     }
 
 }
@@ -27,5 +56,20 @@
 @media screen and (max-width:390px) {
     .hero_sec_lef {
         margin-top: 150px;
+    }
+
+    .stat_h1 {
+        font-size: 100%;
+    }
+
+    .stat_h6 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .stat_ul {
+        gap: 2rem;
     }
 }

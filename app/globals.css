@@ -32,7 +32,7 @@ body {
   background-image: linear-gradient(to left bottom, #051937, #061830, #081629, #0a1422, #0b121b, #0b131e, #0a1320, #0a1423, #061830, #011b3e, #001d4b, #001f58);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /*==== HEADER STYLES  ====*/
@@ -51,8 +51,14 @@ body {
   border-radius: 8px;
 }
 
+/*==== HERO STYLES STYLES  ====*/
+
 .hero_sec {
   height: 100vh;
+}
+
+.hero_sec_lef {
+  padding-top: 5rem;
 }
 
 .hero_sec_h1 {
@@ -65,9 +71,41 @@ body {
   color: var(--color-primary);
 }
 
+.stat {
+  margin-top: 2rem;
+}
+
+.stat_h1 {
+  font-family: var(--font-bespoke);
+  color: var(--color-primary);
+  font-size: 2.5rem;
+}
+
 /* .hero_sec_lef {
   width: 40%;
 } */
+
+/*==== HERO RIGHT SECTION STYLES  ====*/
+
+.hero_sec_right {
+  padding-top: 5rem;
+}
+
+.cus_right_img_sec {
+  position: relative;
+}
+
+.deco_img {
+  position: absolute;
+  top: 50%;
+  left: -70px;
+}
+
+.counter_img {
+  position: absolute;
+  bottom: -20%;
+  right: -90px;
+}
 
 /*==== BUTTON COMPONENT STYLES  ====*/
 .button_com {
