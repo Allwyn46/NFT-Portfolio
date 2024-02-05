@@ -131,3 +131,19 @@ body {
   width: 35%;
   margin-top: 20px;
 }
+
+/*==== ABOUT SECTION STYLES  ====*/
+
+.about_sec {
+  height: 100vh;
+}
+
+.about_sec_h1 {
+  font-size: 48px;
+  line-height: 50px;
+  font-family: var(--font-bespoke);
+}
+
+.about_sec_h1 span {
+  color: var(--color-primary);
+}
