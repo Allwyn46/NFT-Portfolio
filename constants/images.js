@@ -5,6 +5,7 @@ import nftlogo from "../assets/nft-demo.png";
 import herob from "../assets/hero_banner.png";
 import counter from "../assets/counter.png";
 import rounded from "../assets/rounded.png";
+import herobanner from "../assets/hero_banner_updated.png";
 
 export default {
   logo,
@@ -14,4 +15,5 @@ export default {
   herob,
   counter,
   rounded,
+  herobanner,
 };

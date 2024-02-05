@@ -93,6 +93,9 @@ body {
 
 .cus_right_img_sec {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .deco_img {

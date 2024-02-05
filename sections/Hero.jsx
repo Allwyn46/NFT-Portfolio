@@ -49,18 +49,9 @@ const Hero = () => {
       <div className='flex flex-col justify-center items-start max-xl:padding-x pt-28 hero_sec_right'>
         <div className='cus_right_img_sec relative'>
           <Image
-            src={images.herob}
+            src={images.herobanner}
             alt='hero_banner'
-          />
-          <Image
-            src={images.rounded}
-            alt='deco'
-            className='deco_img'
-          />
-          <Image
-            src={images.counter}
-            alt='deco'
-            className='counter_img'
+            className='banner_img'
           />
         </div>
       </div>

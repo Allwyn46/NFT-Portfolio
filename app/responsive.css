@@ -8,6 +8,12 @@
         padding: 20px 30px;
         padding-top: 7rem;
     }
+
+    .banner_img {
+        height: 500px;
+        width: 500px;
+        object-fit: contain;
+    }
 }
 
 @media screen and (max-width:990px) {
@@ -17,6 +23,15 @@
 
     /* pt-28 */
 
+    .banner_img {
+        height: 450px;
+        width: 450px;
+        object-fit: contain;
+    }
+
+    .hero_sec {
+        height: 100%;
+    }
 
 }
 
@@ -24,6 +39,25 @@
     .hero_button_sec {
         justify-content: space-between;
         align-items: center;
+    }
+
+    #hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .counter_img {
+        display: none;
+    }
+
+    .banner_img {
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+
+    .hero_sec_right {
+        padding-top: 1rem;
     }
 }
 
@@ -64,6 +98,10 @@
 
     .stat_h6 {
         font-size: 14px;
+    }
+
+    .hero_sec_right {
+        width: 100%;
     }
 
 }
