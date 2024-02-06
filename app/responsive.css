@@ -63,6 +63,13 @@
     .hero_sec_right {
         padding-top: 1rem;
     }
+
+    .about_sec_lef {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width:490px) {

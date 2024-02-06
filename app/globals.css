@@ -117,7 +117,9 @@ body {
   color: var(--foreground-dark);
   border-radius: 8px;
   border: none;
-  width: 35%;
+  /* width: 35%; */
+  width: 170px;
+  height: 40px;
   margin-right: 20px;
   margin-top: 20px;
 }
@@ -136,6 +138,8 @@ body {
 
 .about_sec {
   height: 100vh;
+  margin-top: 5rem;
+  align-items: start;
 }
 
 .about_sec_h1 {
@@ -146,4 +150,11 @@ body {
 
 .about_sec_h1 span {
   color: var(--color-primary);
+}
+
+.abtcard {
+  padding: 20px;
+  background-color: #131E3A;
+  border-radius: 15px;
+  border-top: 1px solid var(--color-primary);
 }

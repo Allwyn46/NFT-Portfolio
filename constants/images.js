@@ -6,6 +6,10 @@ import herob from "../assets/hero_banner.png";
 import counter from "../assets/counter.png";
 import rounded from "../assets/rounded.png";
 import herobanner from "../assets/hero_banner_updated.png";
+import card1 from "../assets/card1.png";
+import card2 from "../assets/card2.png";
+import card3 from "../assets/card3.png";
+import amt from "../assets/amt.png"
 
 export default {
   logo,
@@ -16,4 +20,8 @@ export default {
   counter,
   rounded,
   herobanner,
+  card1,
+  card2,
+  card3,
+  amt,
 };
