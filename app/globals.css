@@ -158,3 +158,11 @@ body {
   border-radius: 15px;
   border-top: 1px solid var(--color-primary);
 }
+
+.abt_card_sec {
+  margin-top: 5rem;
+  display: flex;
+  gap: 7rem;
+  justify-content: center;
+  align-items: center;
+}

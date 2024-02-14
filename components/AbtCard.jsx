@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Button from './Button'
 
 const AbtCard = ({ label, imgurl }) => {
+
     return (
         <div className='abtcard'>
             <Image
