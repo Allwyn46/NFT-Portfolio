@@ -37,7 +37,7 @@ const Aboutus = () => {
                     deadline={deadline2}
                 />
                 <AbtCard
-                    label="Sugeon, Josh Rife"
+                    label="Cyberpunk, Maximo"
                     imgurl={images.card4}
                     deadline={deadline3}
                 />
