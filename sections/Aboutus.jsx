@@ -36,11 +36,11 @@ const Aboutus = () => {
                     imgurl={images.card3}
                     deadline={deadline2}
                 />
-                <AbtCard
+                {/* <AbtCard
                     label="Cyberpunk, Maximo"
                     imgurl={images.card4}
                     deadline={deadline3}
-                />
+                /> */}
             </div>
 
             <div>
