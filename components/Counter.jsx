@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
-const Counter = () => {
+const Counter = ({ deadline }) => {
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
-
-    const deadline = "December, 31, 2024";
 
     const getTime = () => {
         const time = Date.parse(deadline) - Date.now();
@@ -25,22 +23,16 @@ const Counter = () => {
 
     return (
         <div className='timer'>
-            <div>
-                <div className='day_count'>
-                    <p>{days}</p>
-                    <h3>Days</h3>
-                </div>
-                <div className='hour_count'>
-                    <p>{hours}</p>
-                    <h3>Hours</h3>
-                </div>
-                <div className='minute_count'>
-                    <p>{minutes}</p>
-                    <h3>Minutes</h3>
-                </div>
-                <div className='second_count'>
-                    <p>{seconds}</p>
-                    <h3>Seconds</h3>
+            <div className='timer_wrapper'>
+                <p className='text-slate-400'>Ending in</p>
+                <div className='counter_wrapper flex flex-row justify-between items-center gap-1'>
+                    <h3>{days}</h3>
+                    <p>:</p>
+                    <h3>{hours}</h3>
+                    <p>:</p>
+                    <h3>{minutes}</h3>
+                    <p>:</p>
+                    <h3>{seconds}</h3>
                 </div>
             </div>
         </div>

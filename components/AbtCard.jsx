@@ -2,8 +2,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Button from './Button'
+import Counter from './Counter'
 
-const AbtCard = ({ label, imgurl }) => {
+const AbtCard = ({ label, imgurl, deadline }) => {
 
     return (
         <div className='abtcard'>
@@ -21,10 +22,17 @@ const AbtCard = ({ label, imgurl }) => {
                     490 ETH
                 </p>
             </div>
-            <div className='w-full flex justify-center items-center'>
-                <Button
-                    label="place A Bid"
-                />
+            <div className='w-full flex justify-between items-center abt_card_bottom gap-2 mt-4'>
+                <div className='count_out'>
+                    <Counter
+                        deadline={deadline}
+                    />
+                </div>
+                <div className='but_out'>
+                    <p className='but_in'>
+                        place a bid
+                    </p>
+                </div>
             </div>
         </div>
     )
