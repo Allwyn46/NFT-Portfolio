@@ -11,8 +11,20 @@ const Nav = () => {
 
     const [toggleMenu, seToggleMenu] = useState(false);
 
+    // FUNCTION FOR STICKY NAVBAR
+
+    const [colorChange, setColorChange] = useState(false)
+    const navbarChange = () => {
+        if (window.scrollY >= 80) {
+            setColorChange(true)
+        } else {
+            setColorChange(false)
+        }
+    }
+    window.addEventListener('scroll', navbarChange);
+
     return (
-        <header className='padding-x absolute z-10 w-full'>
+        <header className={`padding-x z-10 w-full fixed ${colorChange ? 'navColor' : 'otherColor'} transition`}>
             <nav className='px-5 py-2 flex justify-between items-center max-container'>
                 <div className='header_logo'>
                     <Image

@@ -190,3 +190,16 @@ body {
   border: 1px solid var(--color-primary);
   border-radius: 10px;
 }
+
+.navColor {
+  /* background-color: #ffffff; */
+  /* backdrop-filter: sepia(10px); */
+  background-color: var(--foreground-dark);
+  padding: 0px 14%;
+  transition: all .5s ease;
+}
+
+.otherColor {
+  background-color: transparent;
+  transition: all .5s ease;
+}
