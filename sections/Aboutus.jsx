@@ -20,29 +20,36 @@ const Aboutus = () => {
                 </h1>
                 <Button label="See All" />
             </div>
-            <div className='abt_card_sec'>
-                <AbtCard
-                    label="Cyberpunk Cocomo"
-                    imgurl={images.card1}
-                    deadline={deadline}
-                />
-                <AbtCard
-                    label="Charge, Qi tiao yu"
-                    imgurl={images.card2}
-                    deadline={deadline1}
-                />
-                <AbtCard
-                    label="Sugeon, Josh Rife"
-                    imgurl={images.card3}
-                    deadline={deadline2}
-                />
-                <AbtCard
-                    label="Cyberpunk, Maximo"
-                    imgurl={images.card4}
-                    deadline={deadline3}
-                />
-            </div>
+            <div className='abt_card_wrapper'>
 
+                <div className='abt_card_sec'>
+                    <div className='abt_card_left_sec'>
+                        <AbtCard
+                            label="Cyberpunk Cocomo"
+                            imgurl={images.card1}
+                            deadline={deadline}
+                        />
+                        <AbtCard
+                            label="Charge, Qi tiao yu"
+                            imgurl={images.card2}
+                            deadline={deadline1}
+                        />
+                    </div>
+                    <div className='abt_card_right_sec'>
+                        <AbtCard
+                            label="Sugeon, Josh Rife"
+                            imgurl={images.card3}
+                            deadline={deadline2}
+                        />
+                        <AbtCard
+                            label="Cyberpunk, Maximo"
+                            imgurl={images.card4}
+                            deadline={deadline3}
+                        />
+                    </div>
+                </div>
+
+            </div>
             <div>
 
             </div>

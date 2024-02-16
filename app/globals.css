@@ -162,9 +162,17 @@ body {
 .abt_card_sec {
   margin-top: 5rem;
   display: flex;
+  flex-direction: row;
   gap: 2rem;
   justify-content: center;
   align-items: center;
+}
+
+
+.abt_card_right_sec,
+.abt_card_left_sec {
+  display: flex;
+  gap: 2rem;
 }
 
 .abt_card_bottom {
