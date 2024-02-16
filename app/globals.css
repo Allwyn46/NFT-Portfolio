@@ -194,8 +194,8 @@ body {
 .navColor {
   /* background-color: #ffffff; */
   /* backdrop-filter: sepia(10px); */
-  background-color: var(--foreground-dark);
-  padding: 0px 14%;
+  background-color: #090F1D;
+  padding: 0px 12%;
   transition: all .5s ease;
 }
 
