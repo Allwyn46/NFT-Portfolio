@@ -91,6 +91,7 @@ body {
   padding-top: 5rem;
 }
 
+
 .cus_right_img_sec {
   position: relative;
   display: flex;
@@ -130,11 +131,14 @@ body {
   color: var(--color-primary);
   border-radius: 8px;
   border: none;
-  width: 35%;
+  /* width: 35%; */
   margin-top: 20px;
+  width: 170px;
+  height: 40px;
 }
 
 /*==== ABOUT SECTION STYLES  ====*/
+
 
 .about_sec {
   height: 100vh;
@@ -202,4 +206,24 @@ body {
 .otherColor {
   background-color: transparent;
   transition: all .5s ease;
+}
+
+/*==== BUYSELL SECTION STYLES  ====*/
+
+.buysell_sec {
+  height: 80vh;
+}
+
+.buysell_lef_sec {
+  width: 100%;
+}
+
+.buysell_sec_h1 {
+  font-size: 58px;
+  line-height: 75px;
+  font-family: var(--font-bespoke);
+}
+
+.buysell_sec_h1 span {
+  color: var(--color-primary);
 }

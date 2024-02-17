@@ -11,6 +11,7 @@ import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
 import card4 from "../assets/card4.jpg";
 import amt from "../assets/amt.png";
+import buysell from "../assets/buysellup.png";
 
 export default {
   logo,
@@ -26,4 +27,5 @@ export default {
   card3,
   card4,
   amt,
+  buysell,
 };
