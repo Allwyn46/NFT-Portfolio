@@ -1,6 +1,30 @@
-@media screen and (max-width:2570px) {}
+@media screen and (max-width:2570px) {
+    .hero_sec_lef {
+        margin-top: 10rem;
+    }
 
-@media screen and (max-width:1450px) {}
+    .hero_sec_right {
+        margin-top: 10rem;
+    }
+
+    .about_sec {
+        margin-top: 10rem;
+    }
+
+    .buysell_sec {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .hero_sec_lef {
+        margin-top: 10rem;
+    }
+
+    .hero_sec_right {
+        margin-top: 10rem;
+    }
+}
 
 @media screen and (max-width:1370px) {
     .hero_sec_lef {
@@ -9,8 +33,18 @@
         padding-top: 7rem;
     }
 
-    .about_sec_lef {
+
+    .about_sec_lef,
+    .buysell_lef_sec {
         padding: 20px 30px;
+    }
+
+    .hero_sec_right {
+        padding: 20px 30px;
+    }
+
+    .buysell_right_sec {
+        padding: 5px 30px;
     }
 
     .abt_card_wrapper {
@@ -21,6 +55,14 @@
         height: 500px;
         width: 500px;
         object-fit: contain;
+    }
+
+    .hero_sec_lef {
+        margin-top: 10rem;
+    }
+
+    .hero_sec_right {
+        margin-top: 10rem;
     }
 }
 
@@ -40,6 +82,42 @@
         justify-content: center;
         align-items: center;
     }
+
+    .hero_sec_lef {
+        margin-top: 10rem;
+    }
+
+    .hero_sec_right {
+        margin-top: 10rem;
+    }
+
+    .hero_sec_h1 {
+        font-size: 53px;
+        line-height: 55px;
+    }
+
+    .about_sec {
+        margin-top: 10rem;
+    }
+
+    .about_sec_h1 {
+        font-size: 40px;
+    }
+
+    .buysell_sec_h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .buysell_sec {
+        margin-top: 29rem;
+    }
+
+    .banner_img2 {
+        height: 600px;
+        width: 600px;
+        object-fit: contain;
+    }
 }
 
 @media screen and (max-width:990px) {
@@ -50,8 +128,8 @@
     /* pt-28 */
 
     .banner_img {
-        height: 450px;
-        width: 450px;
+        /* height: 950px; */
+        width: 950px;
         object-fit: contain;
     }
 
@@ -59,8 +137,21 @@
         height: 100%;
     }
 
+    .hero_sec_lef {
+        margin-top: 2rem;
+    }
+
+
     .about_sec {
         height: 100%;
+    }
+
+    .about_sec {
+        margin-top: 2rem;
+    }
+
+    .buysell_sec {
+        margin-top: 2rem;
     }
 
 }
@@ -81,8 +172,8 @@
     }
 
     .banner_img {
-        height: 300px;
-        width: 300px;
+        height: 400px;
+        width: 800px;
         object-fit: contain;
     }
 
@@ -95,6 +186,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .banner_img2 {
+        height: 440px;
+        width: 440px;
+        object-fit: contain;
     }
 }
 

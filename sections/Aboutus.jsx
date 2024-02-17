@@ -13,7 +13,7 @@ const Aboutus = () => {
     const deadline3 = "August, 26, 2024";
     return (
         <section className='about_sec w-full flex flex-col gap-10 max-container' id='about'>
-            <div className='relative w-full flex flex-row justify-between items-start max-xl:padding-x about_sec_lef'>
+            <div className='w-full flex flex-row justify-between items-start max-xl:padding-x about_sec_lef'>
                 <h1 className='text-8xl about_sec_h1'>
                     <span>Amazing</span> and Super <br />
                     Unique Art of This <span>Week</span>

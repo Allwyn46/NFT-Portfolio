@@ -14,7 +14,7 @@ const Hero = () => {
 
       {/* LEFT sECTION */}
 
-      <div className='relative w-2/5 flex flex-col justify-center items-start max-xl:padding-x hero_sec_lef'>
+      <div className='w-2/5 flex flex-col justify-center items-start max-xl:padding-x hero_sec_lef'>
         <h1 className='text-8xl hero_sec_h1 font-bespoke'>
 
           Discover and <br />

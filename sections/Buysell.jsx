@@ -8,7 +8,7 @@ import images from '@/constants/images'
 const Buysell = () => {
     return (
         <section className='buysell_sec w-full flex max-lg:flex-col flex-row  justify-between items-center gap-10 max-container' id='hero'>
-            <div className='relative flex flex-col justify-center items-start max-xl:padding-x buysell_lef_sec'>
+            <div className='flex flex-col justify-center items-start max-xl:padding-x buysell_lef_sec'>
                 <h1 className='text-8xl buysell_sec_h1'>
                     Create and Sell <br />
                     Your <span className='text'>
@@ -23,6 +23,8 @@ const Buysell = () => {
                     <Button label="Create Now" />
                     <Buttonsec label="Learn More" />
                 </div>
+
+
             </div>
             <div className='flex justify-center items-center max-xl:padding-x buysell_right_sec'>
                 <Image
