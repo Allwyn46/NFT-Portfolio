@@ -227,3 +227,18 @@ body {
 .buysell_sec_h1 span {
   color: var(--color-primary);
 }
+
+/*==== GALLERY SECTION STYLES  ====*/
+
+.Gallery_sec {
+  margin-top: 15rem;
+}
+
+.gallery_top_sec_h1 {
+  font-size: 48px;
+  font-family: var(--font-bespoke);
+}
+
+.gallery_top_sec_h1 span {
+  color: var(--color-primary);
+}
